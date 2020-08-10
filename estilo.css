@@ -1,0 +1,143 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+    background-color:cadetblue;
+    color: blanchedalmond;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#divlogo {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 0px;
+}
+#logo {
+    width: 96px;
+    position: absolute;
+    top: 30px;
+    margin-top: 0.5%;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li{
+    float: right;
+    padding: 10px 20px 10px 10px;
+}
+li:hover{
+    background-color:cadetblue;
+}
+p:hover,h2:hover{
+    background-color: crimson;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#imagem_genero {
+    background: url("genero.jpeg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color:black;
+    padding-top: 20%;
+    font-size: 70px;
+    text-shadow: 3px 3px cyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 0.8;
+}
+#subtitulo {
+    text-align: center;
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:cyan;
+    border-top: 3px solid black;
+    line-height: 1.6;
+    text-shadow: 1px 1px  black;
+}
+#acao {
+    text-shadow: 1px 1px black;
+    color: darkred;
+    border: 1px darkred solid;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+#botao {
+    color:cyan;
+    border: darkgray;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20%;
+    font-family: sans-serif;
+}
+section {
+    padding: 20px;
+}
+p:hover, h2:hover, h3:hover, h4:hover {
+    background-color:cadetblue;
+}
+.icone {
+    width: 60px;
+}
+.imgpolos {
+    width: 40%;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.justificado {
+    text-align: text-justify;
+}
+.centralizado {
+    text-align: center;
+}
+.colunaquatro {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+}
+.dois {
+    width: 15%;
+}
+.tres {
+    text-align: justify;
+}
+footer {
+    background-color: cadetblue;
+    float: left;
+    color: cornsilk;
+    width: 100%;
+}
+@media all and (max-width:768px){
+    #menu {
+        visibility: hidden;
+    }
+    .coluna,.dois,.tres,.quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    
